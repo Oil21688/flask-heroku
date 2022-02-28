@@ -32,7 +32,7 @@ def get_api():
 @app.route('/hi')
 @app.route('/hello')
 def hi():
-    return "สวัสดี"
+    return "นี้เป็นข้อความอัตโนมัติ กรุณารอสักครู่"
 
 if __name__ == "__main__":
     app.run(debug=False)
